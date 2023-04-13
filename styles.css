@@ -1,0 +1,343 @@
+/* Main page */
+.bodymain {
+    background-color: #F6F1E9;
+}
+.bodymain:hover {
+    background-color: #FFE6C7;
+}
+.headingmain {
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   font-style: italic;
+   color: #4F200D;   
+}
+.headingmain:hover {
+    color: #FF8400;
+    text-transform: uppercase;
+}
+.imgmain {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.imgmain:hover {
+    border-radius: 50%;
+}
+.parentmain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid #4F200D;
+    padding: 50px;
+}
+.itemmain {
+   font-size: 30px; 
+   color: #4F200D;
+   text-decoration: none;
+}
+.itemmain:hover {
+    background-color: #FF8400;
+    text-transform: uppercase;   
+}
+@media all and (max-width: 800px) {
+    .bodymain {
+        background-color: #FFE6C7;
+    }
+    .imgmain {
+        width: 500px; 
+    }
+    .headingmain {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .parentmain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 7px solid #4F200D;
+    }
+    .itemmain {
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 500px) {
+    .imgmain {
+        width: 300px; 
+    }
+    .headingmain {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .itemmain {
+        font-size: 22px;
+    }
+}
+
+/* Series Zona komforta*/
+.bodyone {
+    background-color: #E4DCCF;
+}
+.headingone {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #EA5455;
+    text-transform: uppercase;  
+}
+.headingone:hover {
+    color: #002B5B;
+}
+.pointsone {
+    color: #E21818;
+    font-size: 25px;
+}
+.parentone {
+   display: flex; 
+   justify-content: space-between;
+   border: 5px solid #002B5B;
+   border-radius: 30px;
+   padding: 30px;
+   flex-direction: row-reverse;
+}
+.titleone {
+    list-style: none; 
+}
+.itemone {
+font-size: 20px;
+color: #002B5B;
+font-style: oblique; 
+}
+.navone {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #EA5455;
+    padding: 20px;
+    border: 3px solid #002B5B;
+    border-radius: 30px;
+    
+}
+.navone:hover {
+    background-color: pink;
+}
+.linkone {
+    text-decoration: none;
+    font-size: 30px; 
+    margin-right: auto;
+}
+.linkone:hover {
+    color: purple;
+    text-transform: uppercase;   
+}
+.backone {
+    text-decoration: none;
+    font-size: 30px;
+}
+.backone:hover {
+    color: darkseagreen;  
+    text-transform: uppercase; 
+}
+@media all and (max-width: 500px) {
+    .imgone {
+        width: 200px; 
+    }
+    .headingone {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .parentone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;  
+    } 
+    .navone {
+        padding: 10px;   
+    } 
+    .linkone {
+        font-size: 20px;
+    }
+    .backone {
+        font-size: 20px;
+    }
+}
+/* Series Wild angel*/
+.bodytwo {
+    background-color: #F5C6EC;
+}
+.headingtwo {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #9A208C;
+    text-transform: uppercase;  
+}
+.headingtwo:hover {
+    color: #E11299;
+}
+.pointstwo {
+    color: #E11299;
+    font-size: 25px;
+}
+.parenttwo {
+   display: flex; 
+   justify-content: space-between;
+   border: 5px solid #9A208C;
+   border-radius: 30px;
+   padding: 30px;
+   flex-direction: row-reverse;
+}
+.titletwo {
+    list-style: none; 
+}
+.itemtwo {
+font-size: 20px;
+color: #002B5B;
+font-style: oblique; 
+}
+.navtwo {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFEAEA;
+    padding: 20px;
+    border: 3px solid #9A208C;
+    border-radius: 30px;
+    
+}
+.navtwo:hover {
+    background-color: #E11299;
+}
+.linktwo {
+    text-decoration: none;
+    font-size: 30px; 
+    margin-right: auto;
+}
+.linktwo:hover {
+    color: #9A208C;
+    text-transform: uppercase;   
+}
+.backtwo {
+    text-decoration: none;
+    font-size: 30px;
+}
+.backtwo:hover {
+    color: #FFEAEA;  
+    text-transform: uppercase; 
+}
+@media all and (max-width: 500px) {
+    .imgtwo {
+        width: 200px; 
+    }
+    .headingtwo {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .parenttwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;  
+    } 
+    .navtwo {
+        padding: 10px;   
+    } 
+    .linktwo {
+        font-size: 20px;
+    }
+    .backtwo {
+        font-size: 20px;
+    }
+}
+/* Series Lost*/
+.bodythree {
+    background-color: #A5D7E8;
+}
+.headingthree {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #000000;
+    text-transform: uppercase;  
+}
+.headingthree:hover {
+    color: #19A7CE;
+}
+.pointsthree {
+    color: #000000;
+    font-size: 25px;
+}
+.parentthree {
+   display: flex; 
+   justify-content: space-between;
+   border: 5px solid #146C94;
+   border-radius: 30px;
+   padding: 30px;
+   flex-direction: row-reverse;
+}
+.titlethree {
+    list-style: none; 
+}
+.itemthree {
+font-size: 20px;
+color: #146C94;
+font-style: oblique; 
+}
+.navthree {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #19A7CE;
+    padding: 20px;
+    border: 3px solid #146C94;
+    border-radius: 30px;
+    
+}
+.navthree:hover {
+    background-color: #F6F1F1;
+}
+.linkthree {
+    text-decoration: none;
+    font-size: 30px; 
+    margin-right: auto;
+}
+.linkthree:hover {
+    color: #000000;
+    text-transform: uppercase;   
+}
+.backthree {
+    text-decoration: none;
+    font-size: 30px;
+}
+.backthree:hover {
+    color: #000000;  
+    text-transform: uppercase; 
+}
+@media all and (max-width: 500px) {
+    .imgthree {
+        width: 200px; 
+    }
+    .headingthree {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .parentthree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;  
+    } 
+    .navthree {
+        padding: 10px;   
+    } 
+    .linkthree {
+        font-size: 20px;
+    }
+    .backthree {
+        font-size: 20px;
+    }
+}
