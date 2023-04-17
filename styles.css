@@ -146,8 +146,6 @@
         width: 200px; 
     }
     .headingone {
-        display: flex;
-        justify-content: center;
         font-size: 10px;
     }
     .pointsone {
@@ -240,8 +238,6 @@
         width: 200px; 
     }
     .headingtwo {
-        display: flex;
-        justify-content: center;
         font-size: 10px;
     }
     .pointstwo {
@@ -335,8 +331,6 @@
         width: 200px; 
     }
     .headingthree {
-        display: flex;
-        justify-content: center;
         font-size: 10px;
     }
     .pointsthree {
